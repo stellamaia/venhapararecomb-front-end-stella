@@ -10,14 +10,18 @@ Uma página de pagamento (checkout) com múltiplos passos
 que possibilite ao usuário:
 
 1 - Escolher a opção de pagamento:
-	* Cartão de Crédito
-	* Boleto
-	* Pix
+	
+ 	* Cartão de Crédito
+ 	* Boleto
+ 	* Pix
 
 2 - Preencher as informações adicionais dependendo do método:
-	* Cartão de Crédito: Escolha da bandeira e preenchimento das informações (Número de cartão, código CVV, data de vencimento mm/aaaa e Nome do titular, CPF/CNPJ) e número de parcelas
-	* Boleto: CPF, Nome, Sobrenome e e-mail
-	* Pix: Deve pular a segunda etapa
+	
+ 	* Cartão de Crédito: Escolha da bandeira e preenchimento das informações (Número de cartão, código CVV, data de vencimento mm/aaaa e Nome do titular, CPF/CNPJ) e número de parcelas
+ 	
+  	* Boleto: CPF, Nome, Sobrenome e e-mail
+	
+ 	* Pix: Deve pular a segunda etapa
 
 3 - Visualizar o instrumento de pagamento:
 	* Cartão de Crédito: Página aguardando aprovação do pagamento pela operadora
