@@ -8,18 +8,22 @@ O desafio é desenvolver um frontend para um módulo de pagamentos no sistema:
 *Você deve criar:*
 Uma página de pagamento (checkout) com múltiplos passos 
 que possibilite ao usuário:
+
 1 - Escolher a opção de pagamento:
 	* Cartão de Crédito
 	* Boleto
 	* Pix
+
 2 - Preencher as informações adicionais dependendo do método:
 	* Cartão de Crédito: Escolha da bandeira e preenchimento das informações (Número de cartão, código CVV, data de vencimento mm/aaaa e Nome do titular, CPF/CNPJ) e número de parcelas
 	* Boleto: CPF, Nome, Sobrenome e e-mail
 	* Pix: Deve pular a segunda etapa
+
 3 - Visualizar o instrumento de pagamento:
 	* Cartão de Crédito: Página aguardando aprovação do pagamento pela operadora
 	* Boleto: Deve exibir o código de barras do boleto, data de vencimento e botão para download do pdf do boleto
 	* Pix: Deve exibir o QRCode e um contador decrescente para expiração do mesmo
+
 4 - Visualizar o resumo da compra:
 	* Produtos comprados (foto, nome e descrição)
 	* Método de pagamento escolhido
