@@ -24,15 +24,22 @@ que possibilite ao usuário:
  	* Pix: Deve pular a segunda etapa
 
 3 - Visualizar o instrumento de pagamento:
-	* Cartão de Crédito: Página aguardando aprovação do pagamento pela operadora
-	* Boleto: Deve exibir o código de barras do boleto, data de vencimento e botão para download do pdf do boleto
-	* Pix: Deve exibir o QRCode e um contador decrescente para expiração do mesmo
+	
+ 	* Cartão de Crédito: Página aguardando aprovação do pagamento pela operadora
+	
+ 	* Boleto: Deve exibir o código de barras do boleto, data de vencimento e botão para download do pdf do boleto
+	
+ 	* Pix: Deve exibir o QRCode e um contador decrescente para expiração do mesmo
 
 4 - Visualizar o resumo da compra:
-	* Produtos comprados (foto, nome e descrição)
-	* Método de pagamento escolhido
-	* Data da compra
-	* Previsão de entrega
+	
+ 	* Produtos comprados (foto, nome e descrição)
+	
+ 	* Método de pagamento escolhido
+	
+ 	* Data da compra
+	
+ 	* Previsão de entrega
 
 **Escolha as tecnologias que você vai usar e tente montar uma solução completa para rodar a aplicação.**
 
@@ -64,16 +71,15 @@ A pontuação do candidato será a soma dos valores obtidos nos critérios acima
 O candidato pode aumentar a sua pontuação na seleção implementando um ou mais dos itens abaixo:
 |Item                              |Pontos Ganhos  |
 |----------------------------------|---------------|
-|Testes e2e                        |30             |
 |Consumir API (válido mock)        |30             |
-|Implementar Clean Code 	         |20             |
+|Implementar Clean Code 	   |20             |
 |Qualidade de Código com SonarQube |15             |
 |Implementar testes unitários 	   |15             |
 |Implementar testes e2e            |30             |
 |Implementar integração continua   |10             |
 |Implementar usando Vue            |10             |
 |Implementar usado Quasar          |20             |  
-|Total                             |180            |
+|Total                             |150            |
 
 A nota final do candidato será acrescido dos pontos referente ao item implementado corretamente.
 
