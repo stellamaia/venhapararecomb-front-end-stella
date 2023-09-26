@@ -71,7 +71,7 @@ A nota final do candidato será acrescido dos pontos referente ao item implement
 
 ## Penalizações
 
-O candidato será desclassifiado nas seguintes situações:
+O candidato será desclassificado nas seguintes situações:
 
 1) Submeter um solução que não funcione;
 2) Não cumprir os critérios presentes no seção Avaliação;
